@@ -1,0 +1,32 @@
+//Program to get multiplication and subtraction table
+
+package programs;
+
+import java.util.Scanner;
+
+public class questions1 {
+
+	public static void main(String[] args) {
+		int i,m,n;
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the number:");
+		n = sc.nextInt();
+		for(i=0;i<5;i++)
+		{
+			m = n*i;
+			System.out.println(n+"*"+i+"="+m);
+		}
+
+	}
+
+}
+
+
+
+Enter the number:
+5
+5*0=0
+5*1=5
+5*2=10
+5*3=15
+5*4=20
