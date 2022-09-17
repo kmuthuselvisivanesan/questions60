@@ -1,0 +1,29 @@
+// program to find the area of the rectangle
+
+package programs;
+
+import java.util.Scanner;
+
+public class Arearctangle {
+
+	public static void main(String[] args) {
+		float l,b,area;
+		System.out.println("Enter the length ");
+		Scanner sc = new Scanner(System.in);
+		l=sc.nextFloat();
+		System.out.println("Enter the breadth ");
+		b=sc.nextFloat();
+		area =l*b;
+		System.out.println("Area of the rectangle is "+area);
+
+	}
+
+}
+
+
+output:
+Enter the length 
+3
+Enter the breadth 
+2
+Area of the rectangle is 6.0
