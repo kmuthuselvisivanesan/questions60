@@ -1,0 +1,26 @@
+// Program to find the area of a square
+
+package programs;
+
+import java.util.Scanner;
+
+public class Areasquare {
+
+	public static void main(String[] args) {
+	float s,area;
+		System.out.println("Enter the sides:");
+		Scanner sc = new Scanner(System.in);
+		s=sc.nextFloat();
+		area = s*s;
+		System.out.println("Area of the square is "+area);
+
+	}
+
+}
+
+
+Output:
+
+Enter the sides:
+4
+Area of the square is 16.0
