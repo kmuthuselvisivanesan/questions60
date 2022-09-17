@@ -1,0 +1,25 @@
+// Program to find the area of the circle
+
+package programs;
+
+import java.util.Scanner;
+
+public class Areacircle {
+
+	public static void main(String[] args) {
+		double r,area;
+		System.out.println("Enter the radius:" );
+		Scanner sc = new Scanner(System.in);
+		r=sc.nextDouble();
+		area=3.17*r*r;
+		System.out.println("Area of the circle is "+area);
+
+	}
+
+}
+
+
+output:
+Enter the radius:
+2.6
+Area of the circle is 21.4292
