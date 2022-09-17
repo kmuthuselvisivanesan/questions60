@@ -1,0 +1,36 @@
+// Proram to reverse a given number
+
+package learning;
+
+import java.util.Scanner;
+
+public class Rever {
+
+	public static void main(String[] args) {
+	     int n,r,sum=0;
+	     System.out.println(" Enter the number:");
+	     Scanner sc = new Scanner(System.in);
+	     n=sc.nextInt();
+	     System.out.println("Number is "+n);
+	     
+	     while(n>0)
+	     {
+	    	 r=n%10;
+	    	 sum=(sum*10) +r;
+	    	 n=n/10;
+	    	 
+	     }
+	     System.out.println("Reverse is "+sum);
+	     
+	     
+
+	}
+
+}
+
+output:
+
+Enter the number:
+54321
+Number is 54321
+Reverse is 12345
