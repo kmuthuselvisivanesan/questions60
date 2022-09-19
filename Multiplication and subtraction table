@@ -1,0 +1,61 @@
+//Program to print multiplication and subtraction table
+
+package learning;
+
+import java.util.Scanner;
+
+public class Multisub {
+
+	public static void main(String[] args) {
+		int i,n,t;
+		System.out.println("Enter the number:");
+		Scanner sc = new Scanner(System.in);
+		t=sc.nextInt();
+		System.out.println("Enter the limitof number:");
+		n=sc.nextInt(); // if the given number is more, we can use long
+		for(i=0;i<=n;i++)
+		{
+			System.out.println(t + "*" + i + "=" + (t*i));
+			
+		}
+		System.out.println();
+		
+		for(i=0;i<=n;i++)
+		{
+		
+		  System.out.println(t + "-" + i + "=" + (t-i));
+		}
+
+	}
+
+}
+
+output:
+
+Enter the number:
+2
+Enter the limitof number:
+10
+2*0=0
+2*1=2
+2*2=4
+2*3=6
+2*4=8
+2*5=10
+2*6=12
+2*7=14
+2*8=16
+2*9=18
+2*10=20
+
+2-0=2
+2-1=1
+2-2=0
+2-3=-1
+2-4=-2
+2-5=-3
+2-6=-4
+2-7=-5
+2-8=-6
+2-9=-7
+2-10=-8
