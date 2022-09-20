@@ -1,0 +1,35 @@
+//Program to sort the elements in descending order
+
+package learning;
+
+import java.util.Arrays;
+
+public class Arraydescending {
+
+	public static void main(String[] args) {
+		int i,j,temp;
+		int a[]=new int[] {23,54,12,56,78,98,45,2,4,6};
+		System.out.println("Before sorting"+Arrays.toString(a));
+		for(i=0;i<a.length;i++)
+		{
+			for(j=i+1;j<a.length;j++)
+			{
+				if (a[i]<a[j])
+						{
+					       temp=a[i];
+					       a[i]=a[j];
+					       a[j]=temp;
+						}
+			}
+		}
+		System.out.println("After sorting"+Arrays.toString(a));
+
+	}
+
+}
+
+
+output:
+
+Before sorting[23, 54, 12, 56, 78, 98, 45, 2, 4, 6]
+After sorting[98, 78, 56, 54, 45, 23, 12, 6, 4, 2]
